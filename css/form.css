@@ -1,0 +1,73 @@
+* {
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Formulario {
+    background-color: azure;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+
+.title {
+    font-size: 28px;
+    padding: 45px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.form-sub {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#name {
+    width: 50%;
+    height: 40px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+
+
+}
+
+#email {
+    width: 50%;
+    height: 40px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#textarea {
+    width: 50%;
+    height: 40px;
+    font-size: 16px;
+    resize: vertical;
+    font-weight: 400;
+}
+
+.button {
+    background-color: rgb(83, 141, 158);
+    color: white;
+    margin-top: 10px;
+    width: 50%;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 2px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: cadetblue;
+}
