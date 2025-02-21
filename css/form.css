@@ -54,7 +54,7 @@
 }
 
 .button {
-    background-color: rgb(83, 141, 158);
+    background-color: var(--button-color);
     color: white;
     margin-top: 10px;
     width: 50%;
@@ -69,5 +69,5 @@
 }
 
 .button:hover {
-    background-color: cadetblue;
+    background-color: var(--secondary-color);
 }
